@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.workspace369/mcp",
+  "title": "Workspace369",
+  "description": "CRM, proposals, invoices, projects, calendar, time tracking and inbox for client-work businesses.",
+  "version": "2026.3.0",
+  "websiteUrl": "https://workspace369.com/",
+  "repository": {
+    "url": "https://github.com/Workspace369-LLC/workspace369-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.workspace369.com/mcp"
+    }
+  ]
+}
