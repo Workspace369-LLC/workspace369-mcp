@@ -57,7 +57,7 @@ Full guide: [Connect an AI app to your workspace](https://docs.workspace369.com/
 
 ## What it can do
 
-119 tools across these areas ([full tools reference](https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/)):
+121 tools across these areas ([full tools reference](https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/)):
 
 | Area | Examples |
 |---|---|
