@@ -57,7 +57,7 @@ Full guide: [Connect an AI app to your workspace](https://docs.workspace369.com/
 
 ## What it can do
 
-121 tools across these areas ([full tools reference](https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/)):
+118 tools across these areas ([full tools reference](https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/)):
 
 | Area | Examples |
 |---|---|
@@ -70,7 +70,7 @@ Full guide: [Connect an AI app to your workspace](https://docs.workspace369.com/
 | Calendar and booking | `calendar_list_events`, `calendar_create_event`, `calendar_check_availability`, `booking_pages_list` |
 | Time tracking | `time_entries_create`, `time_entries_search`, `timesheets_list` |
 | Inbox | `search_workspace_messages`, `inbox_send_message` |
-| Workflows | `automations_list`, `automations_create_draft`, `automations_test`, `automations_runs_list` |
+| Workflows | `automations_list`, `automations_get`, `automations_test`, `automations_runs_list`, `automations_disable` |
 | Notes, catalog, team, reminders | `notes_create`, `products_list`, `team_members_list`, `reminders_create` |
 
 Some actions are deliberately left out and stay in the app: deleting clients, invoices, projects and other records, changing team members or permissions, editing existing workflows, publishing intake forms, sending marketing campaigns and uploading files.
