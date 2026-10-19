@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.workspace369/mcp",
   "title": "Workspace369",
-  "description": "CRM, proposals, invoices, projects, calendar, time tracking and inbox for client-work businesses.",
+  "description": "CRM, proposals, e-sign contracts, invoices, projects, time tracking and automations for client work.",
   "version": "2026.3.1",
   "websiteUrl": "https://workspace369.com/",
   "repository": {
