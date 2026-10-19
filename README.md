@@ -62,7 +62,7 @@ More than 100 tools across these areas ([full tools reference](https://docs.work
 | Area | Examples |
 |---|---|
 | Workspace | `workspace_get_context`, `workspace_business_summary`, `batch_apply` |
-| Clients and requests | `clients_search`, `clients_create`, `requests_search`, `requests_convert_to_client`, `requests_respond` |
+| Clients and requests | `clients_search`, `clients_create`, `clients_move_stage`, `requests_search`, `requests_convert_to_client`, `requests_respond` |
 | Proposals | `proposals_create_draft`, `proposals_update_draft`, `proposals_send` |
 | Contracts | `contracts_create_draft`, `contracts_send`, `contracts_remind` |
 | Invoices and payments | `invoices_create_draft`, `invoices_send`, `payments_record`, `invoice_payments_summary` |
