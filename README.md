@@ -61,7 +61,7 @@ More than 100 tools across these areas ([full tools reference](https://docs.work
 
 | Area | Examples |
 |---|---|
-| Workspace | `workspace_get_context`, `workspace_business_summary`, `batch_apply` |
+| Workspace | `workspace_get_context`, `workspace_schema`, `workspace_business_summary` |
 | Clients and requests | `clients_search`, `clients_create`, `clients_move_stage`, `requests_search`, `requests_convert_to_client`, `requests_respond` |
 | Proposals | `proposals_create_draft`, `proposals_update_draft`, `proposals_send` |
 | Contracts | `contracts_create_draft`, `contracts_send`, `contracts_remind` |
@@ -73,7 +73,7 @@ More than 100 tools across these areas ([full tools reference](https://docs.work
 | Workflows | `automations_list`, `automations_get`, `automations_test`, `automations_runs_list`, `automations_disable` |
 | Notes, catalog, team, reminders | `notes_create`, `products_list`, `team_members_list`, `reminders_create` |
 
-Some actions are deliberately left out and stay in the app: deleting clients, invoices, projects and other records, changing team members or permissions, editing existing workflows, publishing intake forms, sending marketing campaigns and uploading files.
+Some actions are deliberately left out and stay in the app: deleting clients, invoices, projects and other records, changing team members or permissions, creating, editing or turning on workflows, publishing intake forms, sending marketing campaigns and uploading files.
 
 ## Example prompts
 
