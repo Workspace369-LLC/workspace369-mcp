@@ -1,5 +1,7 @@
 # Workspace369 MCP server
 
+[![Workspace369 MCP server on Glama](https://glama.ai/mcp/connectors/com.workspace369/mcp/badges/score.svg)](https://glama.ai/mcp/connectors/com.workspace369/mcp)
+
 The official remote [Model Context Protocol](https://modelcontextprotocol.io) server for [Workspace369](https://workspace369.com/). It is the all-in-one workspace for businesses that deliver client work: CRM, proposals, contracts and e-signature, invoices and payments, projects and tasks, calendar and booking, time tracking, a shared inbox and workflows.
 
 Connect Claude, ChatGPT, Cursor, VS Code, Windsurf or any MCP client to your Workspace369 workspace. The AI app can then look up a client, draft an invoice or proposal, schedule work, log time or reply to a lead in plain language. Every call runs as you, within your own permissions.
