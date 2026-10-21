@@ -3,7 +3,7 @@
   "name": "com.workspace369/mcp",
   "title": "Workspace369",
   "description": "CRM, proposals, e-sign contracts, invoices, projects, time tracking and automations for client work.",
-  "version": "2026.3.1",
+  "version": "2026.3.2",
   "websiteUrl": "https://workspace369.com/",
   "repository": {
     "url": "https://github.com/Workspace369-LLC/workspace369-mcp",
@@ -13,6 +13,15 @@
     {
       "type": "streamable-http",
       "url": "https://mcp.workspace369.com/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://workspace369.com/favicon/android-chrome-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
     }
   ]
 }

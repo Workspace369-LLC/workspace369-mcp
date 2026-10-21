@@ -2,6 +2,11 @@
 
 Versions follow the listing in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.workspace369/mcp). The hosted server is updated continuously; this file records changes to the public listing and notable server changes.
 
+## 2026.3.2 (2026-10-21)
+
+- Registry listing now includes the Workspace369 icon, so directories can show our logo.
+- Public repo: license, security policy, examples and the crm-starter template.
+
 ## 2026.3.1 (2026-10-20)
 
 - The registry description now covers e-sign contracts and workflows.
