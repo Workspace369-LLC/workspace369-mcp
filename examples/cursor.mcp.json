@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "workspace369": {
+      "url": "https://mcp.workspace369.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:W369_TOKEN}"
+      }
+    }
+  }
+}
