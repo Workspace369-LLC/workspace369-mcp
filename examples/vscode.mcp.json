@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "w369-token",
+      "description": "Workspace369 personal access token",
+      "password": true
+    }
+  ],
+  "servers": {
+    "workspace369": {
+      "type": "http",
+      "url": "https://mcp.workspace369.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:w369-token}"
+      }
+    }
+  }
+}

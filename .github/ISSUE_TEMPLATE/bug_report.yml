@@ -1,0 +1,31 @@
+name: Bug report
+description: Something in the Workspace369 MCP server doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Don't include tokens, passwords or client data. For security issues, email support@workspace369.com instead (see SECURITY.md).
+  - type: input
+    id: client
+    attributes:
+      label: MCP client
+      description: For example Claude Desktop, ChatGPT, Cursor, VS Code, Claude Code, or your own code.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or endpoint
+      description: For example invoices_create_draft, or POST /v1/clients.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead. Include the error message if there was one.
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When (with time zone)

@@ -1,0 +1,14 @@
+name: Tool request
+description: Suggest a tool, field or improvement for AI apps and builders.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like an AI app to be able to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What are you building, and why does it need this?

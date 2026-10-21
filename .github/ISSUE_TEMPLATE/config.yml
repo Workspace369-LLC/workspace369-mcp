@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.workspace369.com/v/2026.3/ai-connections/connect-an-ai-app-to-your-workspace/
+    about: Setup guides for Claude, ChatGPT, Cursor, VS Code and your own code.
+  - name: Account or billing help
+    url: https://workspace369.com/
+    about: Email support@workspace369.com for help with your Workspace369 account.
