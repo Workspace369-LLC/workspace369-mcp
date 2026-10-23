@@ -107,6 +107,29 @@ More than 100 tools across these areas ([full tools reference](https://docs.work
 
 Some actions are deliberately left out and stay in the app: deleting clients, invoices, projects and other records, changing team members or permissions, creating, editing or turning on workflows, publishing intake forms, sending marketing campaigns and uploading files.
 
+## Core CRM toolset (`/mcp/crm`)
+
+> **Available after the deploy.** `https://mcp.workspace369.com/mcp/crm` is not live yet. This section and [`crm/server.json`](crm/server.json) describe it so the listing can be published the day it is. Until then, use `/mcp` above.
+
+A smaller address for apps and directories that work better with a focused tool list. It serves 21 tools from the same server: the same sign-in, scopes, permission checks, approval holds and rate limits as `/mcp`. It is a filtered view, not a separate product.
+
+```text
+https://mcp.workspace369.com/mcp/crm
+```
+
+- **Tools (21):** `workspace_get_context`, `workspace_schema`, `workspace_business_summary`, `clients_search`, `clients_get`, `clients_create`, `clients_update`, `clients_move_stage`, `notes_search`, `notes_get`, `notes_create`, `proposals_search`, `proposals_get`, `proposals_create_draft`, `invoices_search`, `invoices_get`, `invoices_create_draft`, `tasks_search`, `tasks_create`, `tasks_update`, `approvals_get`.
+- **No send tools.** `approvals_get` is included because creating a proposal draft with an image link can be held for approval.
+- **Prompts:** `set_up_my_crm`, `import_my_clients`, `weekly_pipeline_review`. `build_crm_frontend` stays on `/mcp`.
+- **One workspace:** `https://mcp.workspace369.com/w/<workspaceId>/mcp/crm`.
+- **Same token:** a token or sign-in that works on `/mcp` works here.
+- **Registry entry:** published separately as `com.workspace369/crm` (see [`crm/server.json`](crm/server.json)), so directories can show its 21 tools on their own. The full 118-tool server stays `com.workspace369/mcp`.
+
+Claude Code:
+
+```sh
+claude mcp add --transport http workspace369-crm https://mcp.workspace369.com/mcp/crm
+```
+
 ## Build a CRM with AI
 
 Use Workspace369 as the backend when an AI coding agent builds your own CRM, client portal or dashboard. Your records, permissions and approvals stay in Workspace369, and the agent builds the screens.
