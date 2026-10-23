@@ -109,8 +109,6 @@ Some actions are deliberately left out and stay in the app: deleting clients, in
 
 ## Core CRM toolset (`/mcp/crm`)
 
-> **Available after the deploy.** `https://mcp.workspace369.com/mcp/crm` is not live yet. This section and [`crm/server.json`](crm/server.json) describe it so the listing can be published the day it is. Until then, use `/mcp` above.
-
 A smaller address for apps and directories that work better with a focused tool list. It serves 21 tools from the same server: the same sign-in, scopes, permission checks, approval holds and rate limits as `/mcp`. It is a filtered view, not a separate product.
 
 ```text
