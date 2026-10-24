@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.workspace369/crm",
+  "title": "Workspace369 Core CRM",
+  "description": "Core CRM toolset: clients, notes, proposals, invoices and tasks. 21 tools, none that send.",
+  "version": "2026.3.2",
+  "websiteUrl": "https://workspace369.com/",
+  "repository": {
+    "url": "https://github.com/Workspace369-LLC/workspace369-mcp",
+    "source": "github",
+    "subfolder": "crm"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.workspace369.com/mcp/crm"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://workspace369.com/favicon/android-chrome-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ]
+}
