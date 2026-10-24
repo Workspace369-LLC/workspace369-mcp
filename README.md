@@ -83,7 +83,7 @@ claude mcp add --transport http workspace369 https://mcp.workspace369.com/mcp
 code --add-mcp '{"name":"workspace369","type":"http","url":"https://mcp.workspace369.com/mcp"}'
 ```
 
-When the app connects, Workspace369's sign-in page opens. Choose the workspace and set an access level for each area (None, View, Edit, Edit and send, and so on). The app never gets more than you approve. A workspace admin must first turn MCP on under Settings → AI Connections (MCP).
+When the app connects, Workspace369's sign-in page opens. Choose the workspace and set an access level for each area (None, View, Edit, Edit and send, and so on). The app never gets more than you approve. A workspace admin must first turn on **Allow AI connections** under Settings → AI → AI connections.
 
 Full guide: [Connect an AI app to your workspace](https://docs.workspace369.com/v/2026.3/ai-connections/connect-an-ai-app-to-your-workspace/).
 
