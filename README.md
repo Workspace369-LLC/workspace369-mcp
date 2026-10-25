@@ -111,11 +111,13 @@ Some actions are deliberately left out and stay in the app: deleting clients, in
 
 Use Workspace369 as the backend when an AI coding agent builds your own CRM, client portal or dashboard. Your records, permissions and approvals stay in Workspace369, and the agent builds the screens.
 
+- **Overview:** [Build a CRM with AI on Workspace369](https://workspace369.com/build-a-crm-with-ai/?utm_source=github-workspace369-mcp&utm_medium=readme&utm_campaign=ai-builders-crm&utm_content=build_section)
 - **Guide:** [Build a custom CRM with an AI coding agent](https://docs.workspace369.com/v/2026.3/build-with-ai/build-a-custom-crm-with-an-ai-coding-agent/)
 - **Your app's server over HTTPS:** call the same MCP endpoint with a personal access token ([how](https://docs.workspace369.com/v/2026.3/build-with-ai/call-workspace369-from-your-app-over-https/)).
 - **REST:** the [Builder API](https://docs.workspace369.com/v/2026.3/build-with-ai/call-workspace369-over-http-builder-api/) at `https://mcp.workspace369.com/v1` gives each resource its own URL and has an [OpenAPI spec](https://mcp.workspace369.com/v1/openapi.json). It's available on Specialist and higher.
 - **Starter app:** [crm-starter](https://github.com/Workspace369-LLC/crm-starter) is a Next.js CRM template on Workspace369, with a sample-data mode that needs no account.
 - **Ready-made calls:** see [`examples/`](examples/) for curl calls and client config files.
+- **Rather have it built for you?** [App369](https://app369.com/fixed-price/custom-crm-build/?utm_source=github-workspace369-mcp&utm_medium=readme&utm_campaign=ai-builders-crm&utm_content=build_section) builds custom CRMs at a fixed price, quoted after a $450 scoping.
 
 ## Example prompts
 
