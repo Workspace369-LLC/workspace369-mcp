@@ -23,5 +23,69 @@
         "512x512"
       ]
     }
-  ]
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "website": "https://workspace369.com/",
+      "integrationPage": "https://workspace369.com/integrations/mcp/",
+      "documentation": "https://docs.workspace369.com/v/2026.3/ai-connections/connect-an-ai-app-to-your-workspace/",
+      "toolsReference": "https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/",
+      "pricing": "https://workspace369.com/pricing/",
+      "serverCard": "https://mcp.workspace369.com/.well-known/mcp/server-card.json",
+      "publisher": {
+        "name": "Workspace369 LLC",
+        "url": "https://workspace369.com/",
+        "email": "support@workspace369.com"
+      },
+      "categories": [
+        "CRM",
+        "Invoicing",
+        "Proposals",
+        "E-signature",
+        "Project management",
+        "Calendar and scheduling",
+        "Time tracking",
+        "Productivity"
+      ],
+      "keywords": [
+        "crm",
+        "invoicing",
+        "proposals",
+        "contracts",
+        "e-signature",
+        "projects",
+        "tasks",
+        "calendar",
+        "booking",
+        "time tracking",
+        "inbox",
+        "workflows",
+        "client work",
+        "small business"
+      ],
+      "auth": "OAuth 2.1 sign-in with a Workspace369 account, or a personal access token",
+      "tools": [
+        "workspace_get_context",
+        "clients_search",
+        "clients_create",
+        "clients_move_stage",
+        "requests_convert_to_client",
+        "proposals_create_draft",
+        "proposals_send",
+        "contracts_create_draft",
+        "contracts_send",
+        "invoices_create_draft",
+        "invoices_send",
+        "payments_record",
+        "projects_create",
+        "tasks_create",
+        "calendar_list_events",
+        "calendar_check_availability",
+        "time_entries_create",
+        "search_workspace_messages",
+        "inbox_send_message",
+        "automations_list"
+      ]
+    }
+  }
 }
