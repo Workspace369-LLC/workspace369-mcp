@@ -109,18 +109,18 @@ Some actions are deliberately left out and stay in the app: deleting clients, in
 
 ## Core CRM toolset (`/mcp/crm`)
 
-A smaller address for apps and directories that work better with a focused tool list. It serves 21 tools from the same server: the same sign-in, scopes, permission checks and rate limits as `/mcp`. It is a filtered view, not a separate product.
+A smaller address for apps and directories that work better with a focused tool list. It serves 33 tools from the same server: the same sign-in, scopes, permission checks and rate limits as `/mcp`. It is a filtered view, not a separate product.
 
 ```text
 https://mcp.workspace369.com/mcp/crm
 ```
 
-- **Tools (21):** `workspace_get_context`, `workspace_schema`, `workspace_business_summary`, `clients_search`, `clients_get`, `clients_create`, `clients_update`, `clients_move_stage`, `notes_search`, `notes_get`, `notes_create`, `proposals_search`, `proposals_get`, `proposals_create_draft`, `invoices_search`, `invoices_get`, `invoices_create_draft`, `tasks_search`, `tasks_create`, `tasks_update`, `approvals_get`.
+- **Tools (33):** `workspace_get_context`, `workspace_schema`, `workspace_business_summary`, `clients_search`, `clients_get`, `clients_create`, `clients_update`, `clients_move_stage`, `crm_apply_blueprint`, `notes_search`, `notes_get`, `notes_create`, `proposals_search`, `proposals_get`, `proposals_create_draft`, `invoices_search`, `invoices_get`, `invoices_create_draft`, `tasks_search`, `tasks_create`, `tasks_update`, `task_boards_list`, `task_board_schema`, `pipeline_summary`, `lead_sources_list`, `follow_ups_list`, `follow_ups_create`, `follow_ups_complete`, `notes_update`, `proposal_templates_list`, `proposals_get_defaults`, `invoices_get_defaults`, `approvals_get`.
 - **No send tools, and nothing here waits for approval.** `approvals_get` is included so your app can check the status of an approval started from `/mcp`.
 - **Prompts:** `set_up_my_crm`, `import_my_clients`, `weekly_pipeline_review`. `build_crm_frontend` stays on `/mcp`.
 - **One workspace:** `https://mcp.workspace369.com/w/<workspaceId>/mcp/crm`. Use this form when you connect more than one workspace, and give each its own name (for example `workspace369-crm-acme`). Apps key a connection by its URL and name, so two workspaces on the shared address replace each other.
 - **Same token:** a token or sign-in that works on `/mcp` works here.
-- **Registry entry:** published separately as `com.workspace369/crm` (see [`crm/server.json`](crm/server.json)), so directories can show its 21 tools on their own. The full 118-tool server stays `com.workspace369/mcp`.
+- **Registry entry:** published separately as `com.workspace369/crm` (see [`crm/server.json`](crm/server.json)), so directories can show its 33 tools on their own. The full 127-tool server stays `com.workspace369/mcp`.
 
 Claude Code:
 
