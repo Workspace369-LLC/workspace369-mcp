@@ -1,0 +1,11 @@
+{
+  "name": "workspace369",
+  "displayName": "Workspace369",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to your Workspace369 CRM (clients, pipeline, follow-ups, notes, proposals, invoices, tasks) and build a custom CRM on it.",
+  "author": { "name": "Workspace369 LLC", "url": "https://workspace369.com/" },
+  "homepage": "https://github.com/Workspace369-LLC/workspace369-mcp",
+  "repository": "https://github.com/Workspace369-LLC/workspace369-mcp",
+  "license": "MIT",
+  "keywords": ["crm", "mcp", "workspace369", "invoices", "proposals"]
+}

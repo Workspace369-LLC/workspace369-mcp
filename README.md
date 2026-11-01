@@ -87,6 +87,17 @@ When the app connects, Workspace369's sign-in page opens. Choose the workspace a
 
 Full guide: [Connect an AI app to your workspace](https://docs.workspace369.com/v/2026.3/ai-connections/connect-an-ai-app-to-your-workspace/).
 
+## Install in Claude Code
+
+Add the plugin from this repository, then install it:
+
+```text
+/plugin marketplace add Workspace369-LLC/workspace369-mcp
+/plugin install workspace369@workspace369
+```
+
+It adds the core CRM tools (`https://mcp.workspace369.com/mcp/crm`) and a `build-a-crm` skill (run it as `/workspace369:build-a-crm`). Run `/mcp`, choose **workspace369-crm** and sign in in your browser; no token goes in any file. A workspace admin must first turn on AI connections in Workspace369.
+
 ## What it can do
 
 More than 100 tools across these areas ([full tools reference](https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/)):

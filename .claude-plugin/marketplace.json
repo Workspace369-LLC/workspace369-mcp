@@ -1,0 +1,12 @@
+{
+  "name": "workspace369",
+  "description": "Workspace369 plugins for Claude Code.",
+  "owner": { "name": "Workspace369 LLC", "url": "https://workspace369.com/" },
+  "plugins": [
+    {
+      "name": "workspace369",
+      "source": "./",
+      "description": "Workspace369 core CRM tools over MCP, plus a skill that builds a custom CRM on them."
+    }
+  ]
+}

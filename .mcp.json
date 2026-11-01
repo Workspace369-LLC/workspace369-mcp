@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "workspace369-crm": {
+      "type": "http",
+      "url": "https://mcp.workspace369.com/mcp/crm"
+    }
+  }
+}
