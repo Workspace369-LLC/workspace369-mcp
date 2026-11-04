@@ -10,6 +10,13 @@
 </p>
 
 <p align="center">
+  <a href="https://workspace369.com/">Website</a> ·
+  <a href="https://workspace369.com/integrations/mcp/">MCP integration</a> ·
+  <a href="https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/">Tools reference</a> ·
+  <a href="https://workspace369.com/pricing/">Pricing</a>
+</p>
+
+<p align="center">
   <a href="https://glama.ai/mcp/connectors/com.workspace369/mcp"><img src="https://glama.ai/mcp/connectors/com.workspace369/mcp/badges/score.svg" alt="Workspace369 MCP server on Glama"></a>
 </p>
 
@@ -26,7 +33,7 @@
 
 ---
 
-Workspace369 is the all-in-one workspace for businesses that deliver client work: CRM, proposals, contracts and e-signature, invoices and payments, projects and tasks, calendar and booking, time tracking, a shared inbox and workflows.
+[Workspace369](https://workspace369.com/) is the all-in-one workspace for businesses that deliver client work: CRM, proposals, contracts and e-signature, invoices and payments, projects and tasks, calendar and booking, time tracking, a shared inbox and workflows.
 
 Connect Claude, ChatGPT, Cursor, VS Code, Windsurf or any MCP client to your Workspace369 workspace. The AI app can then look up a client, draft an invoice or proposal, schedule work, log time or reply to a lead in plain language. Every call runs as you, within your own permissions.
 
@@ -170,6 +177,8 @@ Use Workspace369 as the backend when an AI coding agent builds your own CRM, cli
 ## Links
 
 - Website: https://workspace369.com/
+- MCP integration page: https://workspace369.com/integrations/mcp/
+- CRM MCP server guide: https://workspace369.com/blog/crm-mcp-server/
 - Docs: https://docs.workspace369.com/
 - Pricing (14-day free trial): https://workspace369.com/pricing/
 - iPhone app: https://apps.apple.com/us/app/workspace369/id6475013419
