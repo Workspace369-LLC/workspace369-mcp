@@ -9,7 +9,7 @@ export W369_TOKEN="mcp_pat_..."   # your token
 | File | What it shows |
 |---|---|
 | [`mcp-curl.sh`](mcp-curl.sh) | Calls the MCP endpoint over HTTPS with curl: lists the tools, then calls one |
-| [`builder-api-curl.sh`](builder-api-curl.sh) | Calls the REST Builder API (Specialist plan and up) |
+| [`builder-api-curl.sh`](builder-api-curl.sh) | Calls the REST Builder API (every plan, Cadet and up) |
 | [`claude-code.mcp.json`](claude-code.mcp.json) | A project `.mcp.json` for Claude Code that reads the token from your environment |
 | [`cursor.mcp.json`](cursor.mcp.json) | `.cursor/mcp.json` for Cursor |
 | [`vscode.mcp.json`](vscode.mcp.json) | `.vscode/mcp.json` for VS Code |

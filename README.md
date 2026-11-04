@@ -92,7 +92,7 @@ claude mcp add --transport http workspace369 https://mcp.workspace369.com/mcp
 code --add-mcp '{"name":"workspace369","type":"http","url":"https://mcp.workspace369.com/mcp"}'
 ```
 
-When the app connects, Workspace369's sign-in page opens. Choose the workspace and set an access level for each area (None, View, Edit, Edit and send, and so on). The app never gets more than you approve. A workspace admin must first turn on **Allow AI connections** under Settings → AI → AI connections. No account yet? [Start a free trial](https://app.workspace369.com/signup?utm_source=github-workspace369-mcp&utm_medium=readme); you'll be the owner, so you can turn it on yourself.
+When the app connects, Workspace369's sign-in page opens. Choose the workspace and set an access level for each area (None, View, Edit, Edit and send, and so on). The app never gets more than you approve. A workspace admin must first turn on **Allow AI connections** under Settings → AI → AI connections. No account yet? [Start a free trial](https://app.workspace369.com/signup?utm_source=github-workspace369-mcp&utm_medium=readme&next=ai-connections): a workspace created from this link opens on AI connections with them already on, so you go straight back to your app and sign in.
 
 Full guide: [Connect an AI app to your workspace](https://docs.workspace369.com/v/2026.3/ai-connections/connect-an-ai-app-to-your-workspace/).
 
@@ -108,6 +108,8 @@ Add the plugin from this repository, then install it:
 It adds the core CRM tools (`https://mcp.workspace369.com/mcp/crm`) and a `build-a-crm` skill (run it as `/workspace369:build-a-crm`). Run `/mcp`, choose **workspace369-crm** and sign in in your browser; no token goes in any file. A workspace admin must first turn on AI connections in Workspace369.
 
 ## What it can do
+
+New to it? The server offers a resource, `workspace369://getting-started` ("Getting started with Workspace369"), with the starter prompts, which actions wait for your approval, and the setup guides. Good first things to say: "Use Workspace369 to set up my CRM for my business.", "Use Workspace369 to import my clients. Ask me for the list." or "Use Workspace369 to review my pipeline this week."
 
 More than 100 tools across these areas ([full tools reference](https://docs.workspace369.com/v/2026.3/ai-connections/mcp-tools-reference/)):
 
@@ -155,7 +157,7 @@ Use Workspace369 as the backend when an AI coding agent builds your own CRM, cli
 - **Overview:** [Build a CRM with AI on Workspace369](https://workspace369.com/build-a-crm-with-ai/?utm_source=github-workspace369-mcp&utm_medium=readme&utm_campaign=ai-builders-crm&utm_content=build_section)
 - **Guide:** [Build a custom CRM with an AI coding agent](https://docs.workspace369.com/v/2026.3/build-with-ai/build-a-custom-crm-with-an-ai-coding-agent/)
 - **Your app's server over HTTPS:** call the same MCP endpoint with a personal access token ([how](https://docs.workspace369.com/v/2026.3/build-with-ai/call-workspace369-from-your-app-over-https/)).
-- **REST:** the [Builder API](https://docs.workspace369.com/v/2026.3/build-with-ai/call-workspace369-over-http-builder-api/) at `https://mcp.workspace369.com/v1` gives each resource its own URL and has an [OpenAPI spec](https://mcp.workspace369.com/v1/openapi.json). It's available on Specialist and higher.
+- **REST:** the [Builder API](https://docs.workspace369.com/v/2026.3/build-with-ai/call-workspace369-over-http-builder-api/) at `https://mcp.workspace369.com/v1` gives each resource its own URL and has an [OpenAPI spec](https://mcp.workspace369.com/v1/openapi.json). It's on every plan (Cadet and up), including the 14-day trial.
 - **Starter app:** [crm-starter](https://github.com/Workspace369-LLC/crm-starter) is a Next.js CRM template on Workspace369, with a sample-data mode that needs no account.
 - **Ready-made calls:** see [`examples/`](examples/) for curl calls and client config files.
 - **Rather have it built for you?** [App369](https://app369.com/fixed-price/custom-crm-build/?utm_source=github-workspace369-mcp&utm_medium=readme&utm_campaign=ai-builders-crm&utm_content=build_section) builds custom CRMs at a fixed price, quoted after a $450 scoping.

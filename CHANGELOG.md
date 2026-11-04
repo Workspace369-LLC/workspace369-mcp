@@ -2,6 +2,12 @@
 
 Versions follow the listing in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.workspace369/mcp). The hosted server is updated continuously; this file records changes to the public listing and notable server changes.
 
+## Server changes since 2026.3.2 (2026-11-04)
+
+- The Builder API is on every plan (Cadet and up), including the 14-day trial; it was Specialist and higher.
+- New MCP resource `workspace369://getting-started` ("Getting started with Workspace369"): starter prompts, approval rules and setup guides. Listed in the server card.
+- A workspace created from a sign-up link with `next=ai-connections` opens on AI connections with them already on.
+
 ## 2026.3.2 (2026-10-21)
 
 - Registry listing now includes the Workspace369 icon, so directories can show our logo.
