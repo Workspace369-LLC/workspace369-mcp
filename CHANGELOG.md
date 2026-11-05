@@ -5,6 +5,7 @@ Versions follow the listing in the [official MCP Registry](https://registry.mode
 ## 2026.3.2 (2026-10-21)
 
 - Registry listing now includes the Workspace369 icon, so directories can show our logo.
+- `server.json` now carries publisher-provided metadata (website, MCP integration page, docs, pricing, server card, categories, keywords and the main tools) for directories that read the registry. Not published yet.
 - Public repo: license, security policy, examples and the crm-starter template.
 
 ## 2026.3.1 (2026-10-20)
