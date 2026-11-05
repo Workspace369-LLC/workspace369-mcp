@@ -49,6 +49,8 @@ This repository holds the public listing metadata ([`server.json`](server.json))
 
 ## Connect
 
+You sign in with a Workspace369 account, and the MCP server works on every plan. No account yet? [Start a free trial](https://app.workspace369.com/signup?utm_source=github-workspace369-mcp&utm_medium=readme&utm_campaign=ai-builders-crm&next=ai-connections). The trial starts when you save your card (nothing is charged for 14 days).
+
 **Claude (claude.ai, Desktop):** add a custom connector with the URL, then sign in.
 
 **ChatGPT:** on plans that offer developer mode, add a custom connector (app) with the URL, then sign in.
