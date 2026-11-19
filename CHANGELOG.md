@@ -2,6 +2,10 @@
 
 Versions follow the listing in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=com.workspace369/mcp). The hosted server is updated continuously; this file records changes to the public listing and notable server changes.
 
+## Unreleased
+
+- Since 2026-11-03 the Builder API and webhooks are on every paid plan, Cadet and up (a trial counts once a card is saved). Earlier entries below describe the plans at the time.
+
 ## 2026.3.2 (2026-10-21)
 
 - Registry listing now includes the Workspace369 icon, so directories can show our logo.

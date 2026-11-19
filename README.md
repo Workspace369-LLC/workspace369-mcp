@@ -140,7 +140,7 @@ https://mcp.workspace369.com/mcp/crm
 - **Prompts:** `set_up_my_crm`, `import_my_clients`, `weekly_pipeline_review`. `build_crm_frontend` stays on `/mcp`.
 - **One workspace:** `https://mcp.workspace369.com/w/<workspaceId>/mcp/crm`. Use this form when you connect more than one workspace, and give each its own name (for example `workspace369-crm-acme`). Apps key a connection by its URL and name, so two workspaces on the shared address replace each other.
 - **Same token:** a token or sign-in that works on `/mcp` works here.
-- **Registry entry:** published separately as `com.workspace369/crm` (see [`crm/server.json`](crm/server.json)), so directories can show its 33 tools on their own. The full 127-tool server stays `com.workspace369/mcp`.
+- **Registry entry:** prepared as a separate entry, `com.workspace369/crm` (see [`crm/server.json`](crm/server.json)), so directories can show its 33 tools on their own. Not published yet. The full server, with more than 100 tools, is `com.workspace369/mcp`.
 
 Claude Code:
 
