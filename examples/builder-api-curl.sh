@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# Call the Workspace369 Builder API (REST). Available on Specialist and higher.
+# Call the Workspace369 Builder API (REST). Available on every paid plan, Cadet and up.
 # Spec: https://mcp.workspace369.com/v1/openapi.json
 # Usage: W369_TOKEN=mcp_pat_... sh builder-api-curl.sh
 set -eu
